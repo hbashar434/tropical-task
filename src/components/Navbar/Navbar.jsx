@@ -55,7 +55,7 @@ const Navbar = () => {
 
         {/* Sidebar for small screens */}
         {isSidebarOpen && (
-          <div className="md:hidden fixed inset-0 bg-gray-800 bg-opacity-75 z-50">
+          <div className="md:hidden fixed inset-0 bg-[#F27A44] z-50">
             <div className="flex justify-end p-4">
               <button
                 type="button"

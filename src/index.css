@@ -3,5 +3,9 @@
 @tailwind utilities;
 
 .my-btn {
-  @apply text-white bg-[#a8816f] rounded-full px-4 py-[0.3rem];
+  @apply text-white bg-[#F27A44] rounded-full px-4 py-[0.3rem];
+}
+
+.my-title {
+  @apply py-4 md:py-6 text-3xl text-black text-center  font-semibold;
 }
