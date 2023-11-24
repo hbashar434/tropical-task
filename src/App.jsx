@@ -1,8 +1,10 @@
+import Navbar from "./components/Navbar/Navbar";
+
 const App = () => {
   return (
-    <div className=" text-3xl text-indigo-600 text-center">
-      Hello Tropical-Task
-    </div>
+    <main className="max-w-[1440px]">
+      <Navbar />
+    </main>
   );
 };
 
