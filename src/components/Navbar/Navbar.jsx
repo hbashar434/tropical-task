@@ -48,7 +48,7 @@ const Navbar = () => {
         {/* Buttons on the right side */}
         <div className="flex items-center space-x-4">
           <button className="text-gray-600">Offers</button>
-          <button className="text-white bg-[#F27A44] rounded-full px-4 py-[0.3rem]">
+          <button className="my-btn">
             Courses
           </button>
         </div>
