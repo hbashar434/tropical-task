@@ -3,7 +3,7 @@ import Image from "../../assets/Mask group.png";
 
 const Explore = () => {
   return (
-    <section className="inter py-12 md:py-24 grid grid-cols-1 md:grid-cols-2 justify-center items-center md:gap-x-12 lg:gap-x-24">
+    <section className="inter py-12 md:py-24 grid grid-cols-1 md:grid-cols-2 justify-center items-center md:gap-x-12 lg:gap-x-24 px-4">
       <div className="order-last md:order-first">
         <div className="justify-center flex-col">
           <p className="mb-3 font-medium text-sm md:text-base lg:text-xl">

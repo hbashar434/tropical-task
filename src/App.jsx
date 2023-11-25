@@ -9,7 +9,7 @@ import Testimonials from "./components/Testimonials/Testimonials";
 
 const App = () => {
   return (
-    <main className="max-w-[1512px] bg-white mx-auto px-2 md:px-4">
+    <main className="max-w-[1512px] bg-white mx-auto">
       <Navbar />
       <Banner />
       <Adventure />

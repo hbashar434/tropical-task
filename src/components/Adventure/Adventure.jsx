@@ -7,7 +7,7 @@ const Adventure = () => {
   return (
     <section
       className="max-w-[1090px] mx-auto py-16 md:py-24 grid grid-cols-1 md:grid-cols-2
-        justify-center items-center inter gap md:gap-x-24 lg:gap-x-48"
+        justify-center items-center inter gap md:gap-x-24 lg:gap-x-48 px-4"
     >
       <div className="flex flex-col space-y-4 md:space-y-8 lg:space-y-12 mb-16 md:mb-0">
         <div className="max-w-[360px] overflow-hidden flex p-6 bg-white rounded-md shadow-xl gap-3">

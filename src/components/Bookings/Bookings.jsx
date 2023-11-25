@@ -3,7 +3,7 @@ import Image from "../../assets/Group 167.png";
 
 const Bookings = () => {
   return (
-    <section className="inter py-12 md:py-24 grid grid-cols-1 md:grid-cols-2 justify-center items-center md:gap-x-12 lg:gap-x-24">
+    <section className="inter py-12 md:py-24 grid grid-cols-1 md:grid-cols-2 justify-center items-center md:gap-x-12 lg:gap-x-24 px-4">
       <div className="flex items-center justify-center w-full my-6 md:mt-0">
         <img className="w-full h-full" src={Image} alt="bannerImg" />
       </div>

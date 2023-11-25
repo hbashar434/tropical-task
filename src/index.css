@@ -30,5 +30,5 @@
 }
 
 .my-title {
-  @apply py-4 md:py-6 text-3xl text-black text-center  font-semibold;
+  @apply py-4 md:py-6 text-3xl text-black font-semibold;
 }
