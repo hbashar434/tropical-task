@@ -3,7 +3,7 @@ import bannerImage from "../../assets/Group 171.png";
 
 const Banner = () => {
   return (
-    <section className="inter py-12 md:py-24 grid grid-cols-1 md:grid-cols-2 justify-center items-center md:gap-x-12 lg:gap-x-24">
+    <section className="inter py-12 md:py-24 grid grid-cols-1 md:grid-cols-2 justify-center items-center md:gap-x-12 lg:gap-x-24 bg-orange-50">
       <div className="order-last md:order-first">
         <p className="mb-1 font-semibold text-sm md:text-xl">
           Discover the beauty of the tropics

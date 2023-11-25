@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import logo from "../../assets/Saly-1.png";
 const Navbar = () => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
 
@@ -10,7 +10,7 @@ const Navbar = () => {
   const navItems = ["Home", "About", "Schedules", "Membership", "Pricing"];
 
   return (
-    <nav className="bg-white p-4">
+    <nav className="bg-white p-4 inter">
       <div className="container mx-auto flex justify-between items-center">
         {/* Navbar items on the left side */}
         <div className="flex items-center space-x-4">
@@ -36,9 +36,12 @@ const Navbar = () => {
           </div>
 
           {/* Navbar items for medium and large screens */}
-          <div className="hidden md:flex space-x-4">
+          <div className="hidden md:flex md:space-x-6 lg:space-x-10 items-center">
+            <figure className="pr-32">
+              <img src={logo} alt="logo" className="w-14" />
+            </figure>
             {navItems.map((item, index) => (
-              <div key={index} className="text-gray-800 hover:text-gray-900">
+              <div key={index} className="text-gray-800">
                 {item}
               </div>
             ))}
@@ -48,9 +51,7 @@ const Navbar = () => {
         {/* Buttons on the right side */}
         <div className="flex items-center space-x-4">
           <button className="text-gray-600">Offers</button>
-          <button className="my-btn">
-            Courses
-          </button>
+          <button className="my-btn">Courses</button>
         </div>
 
         {/* Sidebar for small screens */}

@@ -23,7 +23,7 @@ const reviews = [
 const Testimonials = () => {
   return (
     <section>
-      <p className="my-title">Testimonials</p>
+      <p className="my-title inter">Testimonials</p>
       <div className="container mx-auto grid md:grid-cols-3">
         {reviews.map((review, index) => (
           <div
@@ -35,10 +35,10 @@ const Testimonials = () => {
               alt="reviewer-image"
               className="w-20 h-20 rounded-full dark:bg-gray-500"
             />
-            <p className=" pt-3 border-b-2 border-blue-400 pb-[0.3rem] text-lg font-medium text-center">
+            <p className=" pt-3 border-b-2 border-blue-400 pb-[0.3rem] text-lg font-medium text-center inter">
               {review.name}
             </p>
-            <div className="text-center text-gray-800 pt-3">{review.des}</div>
+            <div className="text-center text-gray-800 pt-3 inter">{review.des}</div>
           </div>
         ))}
       </div>
